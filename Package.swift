@@ -25,7 +25,7 @@ let package = Package(
             name: "AMTriangularSlider",
             dependencies: []),
         .testTarget(
-            name: "AMTriangularSlider",
+            name: "AMTriangularSliderTests",
             dependencies: ["AMTriangularSlider"]),
     ]
 )
